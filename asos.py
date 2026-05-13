@@ -75,6 +75,7 @@ ax.set_title('Top 10 Brands by Number of Products')
 ax.set_xlabel('Count')
 ax.set_ylabel('Brand')
 plt.tight_layout()
+plt.savefig("images/top_brands.png")
 plt.show()
 
 # chart 2 - price range per brand, boxplot is good for this
@@ -85,6 +86,7 @@ ax.set_title('Price Distribution by Top 10 Brands')
 ax.set_xlabel('Brand')
 ax.set_ylabel('Price (£)')
 plt.tight_layout()
+plt.savefig("images/price_distribution.png")
 plt.show()
 
 # chart 3 - average price per brand
@@ -100,6 +102,7 @@ ax.set_title('Average Price by Top 10 Brands')
 ax.set_xlabel('Brand')
 ax.set_ylabel('Average Price (£)')
 plt.tight_layout()
+plt.savefig("images/average_price.png")
 plt.show()
 
 # quick summary
